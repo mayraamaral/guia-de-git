@@ -16,7 +16,7 @@ Antes de qualquer coisa, é válido ressaltar que o Git possui [uma documentaç�
 * [7. Conclusão e créditos](https://github.com/mayraamaral/guia-de-git#7-conclus%C3%A3o-e-cr%C3%A9ditos)
   
 
-## 0. Começando
+## 0. Getting Started
 Lembra de quando você foi escrever um trabalho importante no Work (ou qualquer outro editor de texto) e criou dez versões "finais"?  
   
 <p align="center"><img src="img/img1.jpg"></p>
