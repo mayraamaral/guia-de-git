@@ -5,15 +5,15 @@ Antes de qualquer coisa, é válido ressaltar que o Git possui [uma documentaç�
   
 ## Sumário
   
-* [0. Começando]()
-* [1. Por que usar o Git?]()
-* [2. O que é o Git?]()
-* [2.1 Como funciona?]()
-* [3. Configurando]()
-* [4. Começando]()
-* [5. Github e SSH]()
-* [6. Vamos então criar um repositório!]()
-* [7. Conclusão e créditos]()
+* [0. Getting Started](https://github.com/mayraamaral/guia-de-git#0-getting-started)
+* [1. Por que usar o Git?](https://github.com/mayraamaral/guia-de-git#1-por-que-usar-o-git)
+* [2. O que é o Git?](https://github.com/mayraamaral/guia-de-git#2-o-que-%C3%A9-o-git)
+* [2.1 Como funciona?](https://github.com/mayraamaral/guia-de-git#21-como-funciona)
+* [3. Configurando](https://github.com/mayraamaral/guia-de-git#3-configurando)
+* [4. Iniciando](https://github.com/mayraamaral/guia-de-git#4-come%C3%A7ando)
+* [5. Github e SSH](https://github.com/mayraamaral/guia-de-git#5-github-e-ssh)
+* [6. Vamos então criar um repositório!](https://github.com/mayraamaral/guia-de-git#6-vamos-ent%C3%A3o-criar-um-reposit%C3%B3rio)
+* [7. Conclusão e créditos](https://github.com/mayraamaral/guia-de-git#7-conclus%C3%A3o-e-cr%C3%A9ditos)
   
 
 ## 0. Começando
@@ -112,9 +112,9 @@ Essa parte pode ser um pouco complexa para muitos, então **preste bastante aten
   
 O primeiro passo, obviamente, é criar uma conta no Github, mas se você está lendo isso, suponho que já tenha uma, então vamos pular essa etapa. Agora vamos criar uma chave SSH. Essa chave vai permitir a "comunicação" entre seu computador e o servidor do Github, pois assim você irá conseguir enviar seus arquivos para o servidor remoto de maneira segura e rápida.
 
-* [Instalação no Windows]()
-* [Instalação no Linux]()
-* [Instalação no Mac]()
+* [Instalação no Windows](https://github.com/mayraamaral/guia-de-git#se-voc%C3%AA-est%C3%A1-no-windows)
+* [Instalação no Linux](https://github.com/mayraamaral/guia-de-git#se-voc%C3%AA-tem-linux)
+* [Instalação no Mac](https://github.com/mayraamaral/guia-de-git#se-voc%C3%AA-tem-mac)
   
 ### Se você está no Windows
   
@@ -221,7 +221,8 @@ git add .
 
 Agora vamos enviar para o repositório local:  
   
-```git commit -m "adiciona readme"
+```
+git commit -m "adiciona README"
 ```  
   
 E, finalmente, vamos enviar esse arquivo para o Github:  
