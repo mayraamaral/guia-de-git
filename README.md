@@ -17,7 +17,7 @@ Antes de qualquer coisa, é válido ressaltar que o Git possui [uma documentaç�
   
 
 ## 0. Getting Started
-Lembra de quando você foi escrever um trabalho importante no Work (ou qualquer outro editor de texto) e criou dez versões "finais"?  
+Lembra de quando você foi escrever um trabalho importante no Word (ou qualquer outro editor de texto) e criou dez versões "finais"?  
   
 <p align="center"><img src="img/img1.jpg"></p>
   
@@ -49,8 +49,7 @@ Antes de qualquer coisa, irei explicar de uma forma mais leiga e didática para 
   
 * **Local repository** é o repositório local do Git, ou seja, ele fica na sua máquina. Nele está contido o clone do seu projeto, clone esse que foi feito pelo Git e que guarda o log (histórico) de alterações feitas. É como se fosse um backup, melhor dizendo.  
   
-Para "navegar" entre esses três conceitos que acabamos de entender, usamos dois comandos no Git. Antes de mais nada, saiba que sempre que você inicia, está no **working repository**, para enviar seus arquivos para a **stage area**, use o comando  
-```git add .```  
+Para "navegar" entre esses três conceitos que acabamos de entender, usamos dois comandos no Git. Antes de mais nada, saiba que sempre que você inicia, está no **working repository**, para enviar seus arquivos para a **stage area**, use o comando ```git add .```  
   
 Você pode colocar esse ponto final ( . ) no fim do git add para sinalizar que todos os arquivos do diretório devem ser considerados, mas, caso prefira, pode digitar cada um dos arquivos individualmente, por exemplo:  
 ```
@@ -104,11 +103,11 @@ Vamos adicionar esse arquivo (mandar pra stage area): ```git add .```
   
 Depois é só *commitar* e então ok!  
   
-```git commit -m "adiciona esse arquivo no local repository```
+```git commit -m "adiciona esse arquivo no local repository"```
   
   
 ## 5. Github e SSH
-Essa parte pode ser um pouco complexa para muitos, então **preste bastante atenção**.  
+Esta parte pode ser um pouco complexa para muitos, então **preste bastante atenção**.  
   
 O primeiro passo, obviamente, é criar uma conta no Github, mas se você está lendo isso, suponho que já tenha uma, então vamos pular essa etapa. Agora vamos criar uma chave SSH. Essa chave vai permitir a "comunicação" entre seu computador e o servidor do Github, pois assim você irá conseguir enviar seus arquivos para o servidor remoto de maneira segura e rápida.
 
@@ -179,7 +178,7 @@ Pronto! Seu Mac está preparado para usar o Github, enviando seus repositórios 
 ## 6. Vamos então criar um repositório
 Ao abrir o Github, clique em New. Deixe as outras caixas sem marcar, não crie um arquivo README ainda. Vamos fazer isso manualmente pelo terminal depois. 
   
-Depois de ter criado o repositório **vazio**, essa página deve ter aparecido:  
+Depois de ter criado o repositório **vazio**, esta página deve ter aparecido:  
 
 <p align="center"><img src="img/img5.jpg"></p>  
 
@@ -234,7 +233,7 @@ git push origin main
 Pronto! Você tem um repositório local (no seu computador) e remoto (no Github) em perfeita comunicação. Bem vindo(a/e) ao mundo do Git!  
   
 ## 7. Conclusão e créditos
-Esse repositório foi feito para auxiliar uma amiga nos estudos de Git e, eu pensei que poderia ajudar a mais pessoas, por isso está disponível aqui gratuitamente.  
+Este repositório foi feito para auxiliar uma amiga nos estudos de Git e, eu pensei que poderia ajudar a mais pessoas, por isso está disponível aqui gratuitamente.  
   
 Não está perfeito, e está longe de estar completo. Existem muitas funcionalidades no Git que eu não abordei aqui, seja por falta de tempo, seja para não me estender demais.  
   
