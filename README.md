@@ -88,7 +88,7 @@ Caso esteja no **Linux ou Mac** basta usar os códigos abaixo:
   
 ```mkdir nomeDaPasta```  
   
-Caso você esteja no **Windows**, o processo é um pouco diferente. Crie uma pasta pelo Explorer (o gerenciador de arquivos do Windows) e, **dentro da pasta** clique com o botão direito do mouse, deve abrir essa janela:  
+Caso você esteja no **Windows**, o processo é um pouco diferente. Crie uma pasta pelo Explorer (o gerenciador de arquivos do Windows) e, **dentro da pasta** clique com o botão direito do mouse, deve abrir esta janela:  
   
 <p align="center"><img src="img/img4.jpg"></p>  
   
